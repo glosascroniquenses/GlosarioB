@@ -1,3 +1,12 @@
+---
+---
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
     margin: 5px auto;
     width: 90%;
@@ -35,10 +44,11 @@ footer ul li {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: black;   
 }
 a:hover {
     text-decoration: underline;
+    
 }
 
 h1 {
@@ -55,10 +65,12 @@ h2 {
 
 }
 
-h3  {
-    font-size: 20px;
+h3 {
+    font-size: 15px;
     font-family:'Trebuchet MS', 'Helvetica', 'Sans-Serif';
-    color: #750C41;
+    line-height: 1.4em;
+    color: #333;
+    font-style: italic;
 
 }
 
@@ -85,15 +97,94 @@ ul.posts li {
 }
 
 button{
-        font-size: 1.0em;
+        font-size: 1.2em;
         font-family:'Trebuchet MS', 'Helvetica', 'Sans-Serif';
         font-weight:bold;
         color:white;
         background:#D41C62;
-        width:120px;
-        height:25px;
+        width:200px;
+        height:32px;
         border-radius:10px
        }
 
 
 #more {display: none;}
+
+
+#main {
+  position: absolute;
+  border: 3px black;
+  width: 90%;
+}
+
+.content {
+    width: 90%;
+}
+
+#autores {
+  right: 0;
+  width: 25%;
+  position: absolute;
+  background: hsla(30,25%,50%,.1);
+  margin-right: 2em;
+  padding: 2em;
+  font-family:'Trebuchet MS', 'Helvetica', 'Sans-Serif';
+  font-size: 1.0rem;
+
+  a {
+  }
+}
+
+#palabras {
+}
+
+#palabras-nav {
+  a,:link {
+    color: #800;
+  }
+}
+
+#tables {
+  width: 70%;
+
+}
+
+#tables section {
+  display:none;
+
+}
+
+#tables section:target {
+  display:block;
+   
+}
+
+#tables table {
+    font-family:'Trebuchet MS', 'Helvetica', 'Sans-Serif';
+    font-size: 1.2 rem;
+
+}
+
+#tables td {
+    padding: 5px 10px;
+     
+}
+
+#tables thead th {
+    background: #585858;
+    color: white;
+    padding: 5px 10px;
+    line-height: 1.25;   
+     
+}
+
+#tables tbody td {
+    background: #efefef;
+    background: rgba(0,0,0,0.063);
+    min-width: 100px;
+      border: 1px solid black;
+}
+
+#oculto {
+display:none;
+ }
