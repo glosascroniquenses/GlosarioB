@@ -2,7 +2,7 @@
 title: "Glosas Croniquenses"
 program:
 url: "glosascroniquenses.github.io"
-baseurl: 
+baseurl: ""
 
 # Build Settings
 incremental: true
