@@ -1,8 +1,8 @@
 # Site Metadata
 title: "Glosas Croniquenses"
 program:
-url: 
-baseurl: "glosascroniquenses.github.io"
+url: "glosascroniquenses.github.io"
+baseurl: 
 
 # Build Settings
 incremental: true
